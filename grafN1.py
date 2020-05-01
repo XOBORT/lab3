@@ -5,8 +5,8 @@ try:
 	plt.plot(data[:,0], data[:,1], marker='.')
 	plt.gcf().canvas.set_window_title("Polinom1 N'utona")
 	plt.minorticks_on()
-	plt.grid(color="blue", which="major", linewidth=1)
-	plt.grid(color="blue", which="minor", linestyle=":", linewidth=0.5)
+	plt.grid(color="k", which="major", linewidth=1)
+	plt.grid(color="k", which="minor", linestyle=":", linewidth=0.5)
 	plt.show()
 except BaseException:
 	print("faila nety")
