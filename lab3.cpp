@@ -27,22 +27,6 @@ double my_lagrange(int a, int b, double x, double x_arr[], double* z) {
 }
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////
-
-//double my_lagrange2(int a, int b, double x, double x_arr[], double* z) 
-//{
-//	double ddda = 0;
-//	for (double x = a; x <= b; x += h)
-//	{
-//		ddda=x;
-//	}
-//
-//
-//	return ddda;
-//}
-
-////////////////////////////////////////////////////////////////////////////////////////////////
-
 double d1(double m0, double m1) {
 	return m1 - m0;
 
